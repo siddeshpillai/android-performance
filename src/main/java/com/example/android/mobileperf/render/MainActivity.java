@@ -35,7 +35,11 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         ViewGroup activityContainer = (ViewGroup) findViewById(R.id.activity_main_container);
 
-        addButton(ChatumLatinumActivity.class, getString(R.string.title_activity_chatum_latinum), activityContainer);
+        addButton(ChatumLatinumActivity.class,
+                getString(R.string.title_activity_chatum_latinum), activityContainer);
+
+        addButton(DroidCardsActivity.class,
+                getString(R.string.title_activity_droid_cards), activityContainer);
     }
 
     private void addButton(final Class destination, String description, ViewGroup parent) {

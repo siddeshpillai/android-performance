@@ -46,4 +46,5 @@
             android:padding="@dimen/narrow_space"
             android:id="@+id/chat_text" />
     </LinearLayout>
+
 </LinearLayout>
